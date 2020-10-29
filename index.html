@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="preloader()">
 	<!-- Navigation -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
@@ -230,5 +230,12 @@
 	<script src="js/popper.min.js"></script>
 	<!-- Font Awesome -->
 	<script src="js/all.min.js"></script>
+	<!-- Preloader-->
+	<script type="text/javascript">
+		var loader = document.getElementById("loading");
+		function preloader(){
+			loader.style.display='none';
+		}
+	</script>
 </body>
 </html>
