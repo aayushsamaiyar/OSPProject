@@ -16,7 +16,14 @@ body {
   text-decoration: none;
   font-size: 1.1rem;
 }
-
+/* ========preloader==========*/
+#loading{
+  position: fixed;
+  width:100%;
+  height:100vh;
+  background:url("Spinner-1s-200px.gif") no-repeat center;
+  z-index: 9999999;
+}
 /*============= NAVIGATION =============*/
 .navbar-brand img{
   height:3rem;
