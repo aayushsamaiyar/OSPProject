@@ -29,7 +29,7 @@ body {
 	width: 100%;
 	min-width: 1050px;
 	height: 60px;
-	background-color: #0a3d62;
+	background-color: #c96405;
 	margin-bottom: 15px;
 	display: inline-flex;
 	position: fixed;
@@ -41,8 +41,8 @@ body {
 	margin-top: 10px;
 	right: -70%;
 	margin-bottom: 5px;
-    position: relative;
-    padding: 5px;
+    	position: relative;
+    	padding: 5px;
 	border-radius: 5px;
 	letter-spacing: 2px;
 	line-height: 40px;
@@ -593,11 +593,3 @@ textarea:focus {
     border-radius: 5px;
     color: #fff;
 }
-
-
-
-
-
-
-
-
